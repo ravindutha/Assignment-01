@@ -15,7 +15,11 @@
 
             background-color: rgb(3, 54, 54);
 
+
+            background-color: rgb(3, 54, 54);
+
             background-color: rgb(9, 145, 145);
+
 
             padding: 10px 0px;
             margin: 10px 0px;
@@ -29,6 +33,8 @@
             cursor: pointer;
             margin: 8px;
         }
+
+
 
 
         .editor_container {
@@ -65,12 +71,18 @@
             cursor: pointer;
         }
 
+
     </style>
 </head>
 <body>
     <div class="ribbon">
 
-    
+        <img src="Resources/left.png" alt="Left"onclick="formatText('justifyLeft')"id="align-left-icon">
+        <img src="Resources/right.png" alt="right"onclick="formatText('justifyright')"id="align-rigt-icon">
+        <img src="Resources/center.png" alt="center"onclick="formatText('justifycenter')"id="align-center-icon">
+        <img src="Resources/justify.png" alt="center"onclick="formatText('justifyfully')"id="align-justify-icon">
+
+
 
         <img src="Resources/italic-xxl.png" alt="italic"onclick="formatText('italic')"id="italic-icon"> 
 
@@ -84,6 +96,7 @@
         <img src="Resources/italic-xxl.png" alt="italic"onclick="formatText('italic')"id="italic-icon">
 
         
+
         <div class="color-palette" id="colorPalette">
             <input type="color" id="colorPicker" onchange="applyColor()">
         </div>
@@ -91,6 +104,12 @@
         <button onclick="toggleColorPalette()">
             <b id="colorBtn">A</b>
         </button>
+
+        <img src="Resources/italic-xxl.png" alt="italic"onclick="formatText('italic')"id="italic-icon"> 
+
+        <img src="Resources/format_underline_white_192x192.png" alt="Underline"onclick="formatText('underline')"id="underline-icon">
+        <img src="Resources/bold-xxl.png" alt="Bold"onclick="formatText('bold')"id="bold icon">
+
         
 
         
