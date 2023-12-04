@@ -12,7 +12,11 @@
         }
         .ribbon{
             text-align: center;
+
+            background-color: rgb(3, 54, 54);
+
             background-color: rgb(9, 145, 145);
+
             padding: 10px 0px;
             margin: 10px 0px;
 
@@ -25,6 +29,8 @@
             cursor: pointer;
             margin: 8px;
         }
+
+
         .editor_container {
             width: 80%;
             margin: 50px auto;
@@ -58,11 +64,19 @@
             font-size: 16px;
             cursor: pointer;
         }
+
     </style>
 </head>
 <body>
     <div class="ribbon">
-        
+
+    
+
+        <img src="Resources/italic-xxl.png" alt="italic"onclick="formatText('italic')"id="italic-icon"> 
+
+        <img src="Resources/format_underline_white_192x192.png" alt="Underline"onclick="formatText('underline')"id="underline-icon">
+        <img src="Resources/bold-xxl.png" alt="Bold"onclick="formatText('bold')"id="bold icon">
+
         <img src="Resources/bold-xxl.png" alt="Bold"onclick="formatText('bold')"id="bold-icon">
 
         <img src="Resources/format_underline_white_192x192.png" alt="Underline"onclick="formatText('underline')"id="underline-icon" style="width: 18px; height: 18px;">
@@ -103,6 +117,7 @@
 
     <div class="editor_container">
         <div id="editor" contenteditable="true"></div>
+
     </div>
 </body>
 </html>
