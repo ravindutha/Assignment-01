@@ -11,7 +11,9 @@
             margin: 0px;
         }
         .ribbon{
-            text-align: center;
+
+            background-color: rgb(3, 54, 54);
+
 
             background-color: rgb(3, 54, 54);
 
@@ -19,6 +21,7 @@
             background-color: rgb(3, 54, 54);
 
             background-color: rgb(9, 145, 145);
+
 
 
             padding: 10px 0px;
@@ -33,6 +36,7 @@
             cursor: pointer;
             margin: 8px;
         }
+
 
 
 
@@ -72,10 +76,14 @@
         }
 
 
+
     </style>
 </head>
 <body>
     <div class="ribbon">
+
+    
+        <img src="Resources/bold-xxl.png" alt="Bold"onclick="formatText('bold')"id="bold icon">
 
         <img src="Resources/left.png" alt="Left"onclick="formatText('justifyLeft')"id="align-left-icon">
         <img src="Resources/right.png" alt="right"onclick="formatText('justifyright')"id="align-rigt-icon">
@@ -136,6 +144,7 @@
 
     <div class="editor_container">
         <div id="editor" contenteditable="true"></div>
+
 
     </div>
 </body>
