@@ -18,6 +18,9 @@
 
             background-color: rgb(3, 54, 54);
 
+
+            background-color: rgb(3, 54, 54);
+
             background-color: rgb(9, 145, 145);
 
 
@@ -72,10 +75,17 @@
         }
 
 
+
     </style>
 </head>
 <body>
     <div class="ribbon">
+
+    
+
+        <img src="Resources/format_underline_white_192x192.png" alt="Underline"onclick="formatText('underline')"id="underline-icon">
+        <img src="Resources/bold-xxl.png" alt="Bold"onclick="formatText('bold')"id="bold icon">
+
 
 
         <img src="Resources/undo-4-32.png" alt="undo"onclick="formatText('undo')"id="undo-icon">
